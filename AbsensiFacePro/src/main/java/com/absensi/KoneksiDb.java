@@ -11,7 +11,7 @@ public class KoneksiDb {
             // Ganti 'root' dan '' (kosong) sesuai username & password XAMPP/MySQL Anda
             String url = "jdbc:mysql://localhost:3306/db_absensi";
             String user = "root";
-            String password = "siregar123"; 
+            String password = "DB_PASSWORD"; 
             
             // Register Driver (Untuk versi baru kadang opsional, tapi bagus untuk memastikan)
             Class.forName("com.mysql.cj.jdbc.Driver");
