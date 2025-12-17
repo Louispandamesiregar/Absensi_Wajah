@@ -10,7 +10,7 @@ public class KoneksiDb {
         try {
             String url = "jdbc:mysql://localhost:3306/db_absensi";
             String user = "root";
-            String password = "siregar123"; 
+            String password = "DB_PASSWORD"; 
             Class.forName("com.mysql.cj.jdbc.Driver");
             conn = DriverManager.getConnection(url, user, password);
         } catch (ClassNotFoundException | SQLException e) {
